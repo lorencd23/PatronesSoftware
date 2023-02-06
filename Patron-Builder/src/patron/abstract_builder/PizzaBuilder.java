@@ -1,7 +1,12 @@
+
 package patron.abstract_builder;
 
-
+/**
+ *
+ * @author LorenzoGalveMuñoz
+ */
 public abstract class PizzaBuilder {
+    //ATRIBUTOS
     protected Pizza pizza;
     
     public Pizza getPizza(){
@@ -15,6 +20,4 @@ public abstract class PizzaBuilder {
     public abstract void buildMasa();
     public abstract void buildSalsa();
     public abstract void buildRelleno();
-    
-    
 }

@@ -3,22 +3,25 @@ package patron.concrete_builder;
 
 import patron.abstract_builder.PizzaBuilder;
 
-
-public class PicantePizzaBuilder extends PizzaBuilder{    
+/**
+ *
+ * @author LorenzoGalveMuñoz
+ */
+public class HawaiiPizzaBuilder extends PizzaBuilder{
 
     @Override
     public void buildMasa() {
-        super.pizza.setMasa("doble");
+        super.pizza.setMasa("Normal");
     }
 
     @Override
     public void buildSalsa() {
-        super.pizza.setSalsa("Carbonara+Picante");
+        super.pizza.setSalsa("Dulce");
     }
 
     @Override
     public void buildRelleno() {
-        super.pizza.setRelleno("pepperoni+beicon+jalapenyos");
+        super.pizza.setRelleno("Pinha+York+Queso+Tomate");
     }
     
 }

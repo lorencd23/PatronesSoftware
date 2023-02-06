@@ -1,11 +1,20 @@
+
 package patron.abstract_builder;
 
-/* PRODUCTO QUE UTILIZARÁ EL BUILDER*/
+/**
+ *
+ * @author LorenzoGalveMuñoz
+ */
+
+/*PRODUCTO QUE UTILIZARA EL BUILDER*/
 public class Pizza {
+    
+    //ATRIBUTOS
     private String masa = "";
     private String salsa = "";
     private String relleno = "";
 
+    //SETTERS
     public void setMasa(String masa) {
         this.masa = masa;
     }
@@ -17,7 +26,6 @@ public class Pizza {
     public void setRelleno(String relleno) {
         this.relleno = relleno;
     }
-    
     
     
 }
